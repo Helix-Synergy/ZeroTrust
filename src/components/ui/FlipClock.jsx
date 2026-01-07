@@ -16,7 +16,7 @@ const FlipClock = () => {
           width: 35,
           height: 50,
           fontSize: 24,
-          backgroundColor: '#7ab326',
+          backgroundColor: 'rgb(84, 109, 197)',
           borderRadius: 6,
         });
         setLabelFontSize(10);
@@ -26,7 +26,7 @@ const FlipClock = () => {
           width: 45,
           height: 60,
           fontSize: 30,
-          backgroundColor: '#7ab326',
+          backgroundColor: 'rgb(84, 109, 197)',
           borderRadius: 6,
         });
         setLabelFontSize(12);
@@ -37,7 +37,7 @@ const FlipClock = () => {
           height: 80,
           fontSize: 50,
           fontWeight: 700,
-          backgroundColor: '#7ab326',
+          backgroundColor: 'rgb(84, 109, 197)',
           borderRadius: 8,
         });
         setLabelFontSize(14);
