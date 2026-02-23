@@ -6,7 +6,7 @@ import venue from "../assets/Images1/venue1.webp"
 const Venue = () => {
   return (
     <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-      
+
       {/* Banner Section (CLONED FROM ORATORS) */}
       <div
         className={`${banner_style} w-full mx-auto venue-banner`}
@@ -74,7 +74,7 @@ export default Venue;
 
 
 
-  {/* <h1 className="my-8 text-2xl md:text-3xl text-center">Places to visit near the Venue</h1>
+{/* <h1 className="my-8 text-2xl md:text-3xl text-center">Places to visit near the Venue</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center gap-4 md:px-12 w-full md:mb-8 mb-2">
           {visit_places.map((item, index) => (

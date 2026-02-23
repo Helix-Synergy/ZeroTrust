@@ -8,16 +8,16 @@ const Orators = () => {
   return (
     <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
       {/* Banner Section */}
- <div
-  className={`${banner_style} w-full mx-auto orators-banner`}
-  style={{
-    backgroundImage: `url(${orators1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
+      <div
+        className={`${banner_style} w-full mx-auto orators-banner`}
+        style={{
+          backgroundImage: `url(${orators1})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <h1 className="text-slate-100 text-shadow text-one text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-      ZEROTRUSTAI  - Orators
+          ZEROTRUSTAI  - Orators
         </h1>
       </div>
 
@@ -26,8 +26,8 @@ const Orators = () => {
         <h2 className="text-2xl md:text-3xl font-bold mb-2">
           Meet Our Distinguished Orators
         </h2>
-        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-International cybersecurity leaders and AI defense experts advancing next-generation zero-trust innovations at ZEROTRUSTAI-2026
+        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600 text-justify">
+          International cybersecurity leaders and AI defense experts advancing next-generation zero-trust innovations at ZEROTRUSTAI-2026
         </p>
       </div>
 

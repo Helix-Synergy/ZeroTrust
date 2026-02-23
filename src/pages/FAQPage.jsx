@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const faqLinks = {
   tracks: "/zerotrustai-conference-tracks/",
   abstractSubmission: "/abstract-submission",
-  schedule:"/zerotrustai-event-schedule",
+  schedule: "/zerotrustai-event-schedule",
   email: "mailto:hello@helixconferences.com",
 
 };
@@ -180,7 +180,7 @@ const Faq = () => {
             <span className="text-xl">{openIndex === index ? "−" : "+"}</span>
           </button>
           {openIndex === index && (
-            <div className="px-4 pb-4 text-gray-700">{item.answer}</div>
+            <div className="px-4 pb-4 text-gray-700 text-justify">{item.answer}</div>
           )}
         </div>
       ))}

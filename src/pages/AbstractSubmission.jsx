@@ -57,7 +57,6 @@ const AbstractSubmission = () => {
         "https://backend-code-6vqy.onrender.com/abstract-submission",
         formData,
         {
-          headers: { "Content-Type": "multipart/form-data" },
           withCredentials: true,
         }
       );
@@ -97,28 +96,28 @@ const AbstractSubmission = () => {
     setLoading(false);
   };
 
-const presentationOptions = [
-  "Future of AI & Security",
-  "Cybersecurity",
-  "Zero-Trust Focused",
-  "Aerospace",
-  "Threat Detection & Response",
-  "Data Protection",
-  "AI Forensics",
-  "Defense Technology",
-  "Risk Management",
-  "Intelligence & Innovation",
-  "AI Encryption",
-  "Digital Forensics",
-  "API Security",
-  "Future & Innovation",
-  "AI Monitoring",
-  "Network Detection",
-  "Cognitive Defense",
-  "Zero-Trust Cloud",
-  "Cyber Resilience",
-  "AI Radar",
-];
+  const presentationOptions = [
+    "Future of AI & Security",
+    "Cybersecurity",
+    "Zero-Trust Focused",
+    "Aerospace",
+    "Threat Detection & Response",
+    "Data Protection",
+    "AI Forensics",
+    "Defense Technology",
+    "Risk Management",
+    "Intelligence & Innovation",
+    "AI Encryption",
+    "Digital Forensics",
+    "API Security",
+    "Future & Innovation",
+    "AI Monitoring",
+    "Network Detection",
+    "Cognitive Defense",
+    "Zero-Trust Cloud",
+    "Cyber Resilience",
+    "AI Radar",
+  ];
 
 
 
@@ -146,9 +145,8 @@ const presentationOptions = [
       <form onSubmit={handleSubmit} className="space-y-4">
         {status.message && (
           <div
-            className={`w-full p-4 rounded-lg text-white text-center ${
-              status.type === "success" ? "bg-green-600" : "bg-red-600"
-            }`}
+            className={`w-full p-4 rounded-lg text-white text-center ${status.type === "success" ? "bg-green-600" : "bg-red-600"
+              }`}
           >
             {status.message}
           </div>
@@ -301,7 +299,7 @@ const presentationOptions = [
         </button>
 
         <button className="bg-one ml-2 px-4 py-2 rounded">
-          <a href="" download className="text-white">
+          <a href="/sample_abstract.pdf" download="Sample_Abstract.pdf" className="text-white">
             Download Demo Abstract
           </a>
         </button>

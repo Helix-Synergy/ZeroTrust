@@ -6,18 +6,18 @@ import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const nav_links = [
-    { name: "About", link:"/about-zerotrustai"},
+    { name: "About", link: "/about-zerotrustai" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
     { name: "Tracks", link: "/zerotrustai-conference-tracks/" },
-    { name: "Orators", link:"/zerotrustai-orators" },
-    { name: "Schedule", link: "/zerotrustai-event-schedule"},
+    { name: "Orators", link: "/zerotrustai-orators" },
+    { name: "Schedule", link: "/zerotrustai-event-schedule" },
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/Contact" },
   ];
 
   return (
-    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-accent/80 px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-start md:items-stretch">
+    <div className="flex flex-col rounded-t-2xl md:flex-row md:justify-between bg-accent/80 px-4 sm:px-6 md:px-12 py-8 md:py-10 text-white gap-10 md:gap-6 items-center md:items-start">
 
       {/* Grid 1 */}
       <div className="w-full md:w-1/4 flex flex-col mt-[10px] items-center md:items-start text-center md:text-left gap-4">
@@ -30,10 +30,10 @@ const Footer = () => {
 
           />
           <br />
-        <p style={{}}>
-   “Securing the Future with Zero-Trust Architecture and AI-Driven Defense”
-        </p>
-       
+          <p style={{}}>
+            “Securing the Future with Zero-Trust Architecture and AI-Driven Defense”
+          </p>
+
         </div>
       </div>
 
@@ -97,8 +97,8 @@ const Footer = () => {
 
           <div className="flex flex-row gap-2 items-start justify-center md:justify-start px-4 md:px-0 text-sm sm:text-base">
             <MapPin size="30" />
-            <p className="text-left">
-        Vancouver | Canada
+            <p className="">
+              Vancouver | Canada
             </p>
           </div>
         </div>

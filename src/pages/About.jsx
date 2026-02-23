@@ -25,21 +25,21 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
- The Zero-Trust Security & AI Defense Forum, organized by Helix Conferences, is a distinguished international platform dedicated to advancing zero-trust frameworks, AI-driven threat detection, and innovative cybersecurity solutions that safeguard organizational assets, enhance operational resilience, and strengthen <Link to="/zerotrustai-orators" className="
+
+        The Zero-Trust Security & AI Defense Forum, organized by Helix Conferences, is a distinguished international platform dedicated to advancing zero-trust frameworks, AI-driven threat detection, and innovative cybersecurity solutions that safeguard organizational assets, enhance operational resilience, and strengthen <Link to="/zerotrustai-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- global digital security. </Link>The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of zero-trust principles, AI defense mechanisms, and next-generation cybersecurity strategies. Emphasis is placed on threat intelligence, identity and access management, cloud security, endpoint protection, AI-driven anomaly detection, and regulatory compliance.Through plenary sessions, keynote addresses, expert-led panels,<Link to="/about-zerotrustai"   className="
+          global digital security. </Link>The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of zero-trust principles, AI defense mechanisms, and next-generation cybersecurity strategies. Emphasis is placed on threat intelligence, identity and access management, cloud security, endpoint protection, AI-driven anomaly detection, and regulatory compliance.Through plenary sessions, keynote addresses, expert-led panels,<Link to="/about-zerotrustai" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-technical workshops, </Link> and research presentations, participants will gain strategic insights into emerging technologies, scalable security frameworks, and evolving global cybersecurity policies.
- 
-      
+          technical workshops, </Link> and research presentations, participants will gain strategic insights into emerging technologies, scalable security frameworks, and evolving global cybersecurity policies.
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/zerotrustai-conference-tracks/"
+          to="/zerotrustai-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -54,53 +54,53 @@ technical workshops, </Link> and research presentations, participants will gain 
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders and innovators in shaping the future of secure digital systems through zero-trust architectures and AI-powered defense excellence..",
+        "Join global leaders and innovators in shaping the future of secure digital systems through zero-trust architectures and AI-powered defense excellence..",
     },
   ],
-highlights: [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized experts and thought leaders in zero-trust security, AI defense, and next-generation cybersecurity innovation.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in in-depth sessions on zero-trust implementation, AI-driven threat detection, secure network architecture, digital forensics, and risk management.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Discover advanced security platforms, AI-powered defense solutions, identity and access management systems, and next-generation cybersecurity technologies.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Build meaningful connections with global stakeholders across academia, industry, government, defense, and investment sectors.",
-  },
-  {
-    title: "Zero-Trust & Cybersecurity Focus",
-    description:
-      "Gain insights into internationally aligned zero-trust frameworks, regulatory compliance, AI threat intelligence, and scalable enterprise security solutions.",
-  },
-  {
-    title: "Scientific & Market Intelligence",
-    description:
-      "Explore the latest research findings, market trends, regulatory developments, and commercialization pathways in cybersecurity and AI defense.",
-    linkText: "View event schedule",
-    link: "/zerotrustai-event-schedule",
-  },
-  {
-    title: "Collaboration & Partnership Platforms",
-    description:
-      "Foster cross-sector collaborations to advance research, innovation, and scalable digital security and defense solutions.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training programs.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized experts and thought leaders in zero-trust security, AI defense, and next-generation cybersecurity innovation.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in in-depth sessions on zero-trust implementation, AI-driven threat detection, secure network architecture, digital forensics, and risk management.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Discover advanced security platforms, AI-powered defense solutions, identity and access management systems, and next-generation cybersecurity technologies.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Build meaningful connections with global stakeholders across academia, industry, government, defense, and investment sectors.",
+    },
+    {
+      title: "Zero-Trust & Cybersecurity Focus",
+      description:
+        "Gain insights into internationally aligned zero-trust frameworks, regulatory compliance, AI threat intelligence, and scalable enterprise security solutions.",
+    },
+    {
+      title: "Scientific & Market Intelligence",
+      description:
+        "Explore the latest research findings, market trends, regulatory developments, and commercialization pathways in cybersecurity and AI defense.",
+      linkText: "View event schedule",
+      link: "/zerotrustai-event-schedule",
+    },
+    {
+      title: "Collaboration & Partnership Platforms",
+      description:
+        "Foster cross-sector collaborations to advance research, innovation, and scalable digital security and defense solutions.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training programs.",
+    },
+  ],
 
 
 
@@ -132,7 +132,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Collaboration Driving Advanced Cyber Defense Impact
+        Fostering Collaboration Driving Advanced Cyber Defense Impact
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -143,7 +143,7 @@ Fostering Collaboration Driving Advanced Cyber Defense Impact
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -157,7 +157,7 @@ Fostering Collaboration Driving Advanced Cyber Defense Impact
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -172,25 +172,25 @@ Fostering Collaboration Driving Advanced Cyber Defense Impact
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-     Cybersecurity and Threat Intelligence Researchers
+              Cybersecurity and Threat Intelligence Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-AI and Machine Learning Security Professionals
+              AI and Machine Learning Security Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-IT, Cloud, and Network Security Experts
+              IT, Cloud, and Network Security Experts
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-    Government, Industry, and Policy Leaders
+              Government, Industry, and Policy Leaders
             </h3>
           </div>
         </div>
@@ -210,7 +210,7 @@ IT, Cloud, and Network Security Experts
                 <h3 className="font-semibold whitespace-nowrap mr-1">
                   {highlight.title} –
                 </h3>
-                <p className="text-md text-gray-600 flex-1">
+                <p className="text-md text-gray-600 flex-1 text-justify">
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}

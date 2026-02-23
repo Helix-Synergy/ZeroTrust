@@ -53,16 +53,9 @@ const ContactForm = () => {
       const response = await axios.post(
         "https://backend-code-6vqy.onrender.com/contact",
         formData, // <-- CHANGED: Send FormData instead of raw form object
-        { 
-          // <-- CHANGED: Content-Type header to multipart/form-data
-          // axios automatically sets the correct 'Content-Type' with boundary for FormData
-          // so removing the explicit 'Content-Type' is often best, but if you must keep it,
-          // ensure it's 'multipart/form-data' not 'application/json'.
-          // However, axios usually handles this best when you pass FormData directly.
-          // For clarity, I'm removing the explicit header here, as it's often problematic
-          // when manually set with FormData. If you need it, uncomment the line below.
-          // headers: { "Content-Type": "multipart/form-data" }, // This line would be re-added if absolutely necessary, but axios usually handles it.
-          withCredentials: true, 
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+          withCredentials: true,
         }
       );
       setStatus({
@@ -145,8 +138,8 @@ const ContactForm = () => {
     "AI & Digital Nursing Forum",
     "Critical & Emergency Care Summit",
     "Nursing Leadership & Workforce Excellence Congress",
-    
-     "Food, Agriculture & Environmental Sciences Forum",
+
+    "Food, Agriculture & Environmental Sciences Forum",
     "Food Microbiome Summit",
     "Regenerative AgriTech Forum",
     "Future FoodTech Expo",
@@ -161,7 +154,7 @@ const ContactForm = () => {
     "Advanced Materials & Clean Energy Forum",
 
 
-      "Advanced Pharmaceutical Sciences Forum",
+    "Advanced Pharmaceutical Sciences Forum",
     "AI Drug Discovery Conclave",
     "Cell & Gene Therapy Manufacturing Summit",
     "Real-World Evidence & Pharma Access Forum",
@@ -189,17 +182,17 @@ const ContactForm = () => {
 
   return (
     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-   <div
-  className={`${banner_style} w-full mx-auto event-partners-banner`}
-  style={{
-    backgroundImage: `url(${contact})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
+      <div
+        className={`${banner_style} w-full mx-auto event-partners-banner`}
+        style={{
+          backgroundImage: `url(${contact})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
 
->
- {/* Changed to style prop if banner_style is an object */} 
-         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
+      >
+        {/* Changed to style prop if banner_style is an object */}
+        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
           Contact Us
         </h1>
       </div>
@@ -212,9 +205,9 @@ const ContactForm = () => {
           </h1>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
-            // style={{
-            //   minHeight: contactFormHeight ? `${contactFormHeight}px` : "auto",
-            // }}
+          // style={{
+          //   minHeight: contactFormHeight ? `${contactFormHeight}px` : "auto",
+          // }}
           >
             {/* Webinars */}
             {/* <div className="w-full md:w-1/2 h-[70vh] bg-white border border-one shadow-md rounded-xl overflow-hidden">
@@ -253,13 +246,13 @@ const ContactForm = () => {
                     </a>
                   ))}
                 </div> */}
-              {/* </div>
-            </div> */} 
+            {/* </div>
+            </div> */}
 
             {/* Hybrid Conferences */}
             <div className="w-full md:w-100 h-200 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
               <h2 className="bg-accent text-white text-xl font-bold py-3 text-center z-10 relative">
-              Conferences-2026
+                Conferences-2026
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"
@@ -285,7 +278,7 @@ const ContactForm = () => {
                     <a
                       key={`hybrid-${idx}`}
                       href="https://helixconferences.com/hybrid-events.php"
-                      className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer"
+                      className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer text-left"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -309,9 +302,8 @@ const ContactForm = () => {
             {status.message && (
               <div
                 className={`w-full p-4 rounded-lg
-                  text-white text-center ${
-                  status.type === "success" ? "bg-green-600" : "bg-red-600"
-                }`}
+                  text-white text-center ${status.type === "success" ? "bg-green-600" : "bg-red-600"
+                  }`}
               >
                 {status.message}
               </div>
