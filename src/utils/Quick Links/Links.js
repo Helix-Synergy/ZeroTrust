@@ -28,7 +28,7 @@ export const socialLinks = [
   },
   {
     id: "twitter",
-    name: "X (Twitter)",
+    name: "X",
     url: "https://x.com/Helixconfe69272",
     icon: <XIcon size={18} />,
   },

@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from "react";
 import { PartnerImageList } from "../utils/partners/Partners";
 import { Link } from "react-router-dom";
@@ -34,14 +35,14 @@ const Partners = () => {
   }, []);
 
   return (
-    <div className="py-10 w-[90%] mx-auto bg-white flex flex-col items-center">
+    <div className="py-16 bg-white flex flex-col items-center">
       {/* <p className="text-one font-semibold text-xl mb-2">Partners</p> */}
       <h1 className="text-4xl text-black font-bold text-center mb-10">
-    ZEROTRUSTAI - Event Partners
+   ZEROTRUSTAI - Event Partners
       </h1>
 
       {/* Carousel Container */}
-      <div className="w-full  border-one overflow-hidden">
+      <div className="w-[85vw] overflow-hidden">
         <div ref={wrapperRef} className="w-full">
           <div
             ref={scrollRef}

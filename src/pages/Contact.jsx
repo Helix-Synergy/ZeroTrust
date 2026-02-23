@@ -255,7 +255,7 @@ const ContactForm = () => {
                 Conferences-2026
               </h2>
               <div
-                className="relative overflow-y-auto scrollbar-hide"
+                className="relative overflow-y-auto scrollbar-hide "
                 style={{ maxHeight: listScrollAreaHeight }}
                 onScroll={(e) => {
                   const scrollContainer = e.currentTarget;
@@ -277,8 +277,8 @@ const ContactForm = () => {
                   {infiniteHybridConferences.map((item, idx) => (
                     <a
                       key={`hybrid-${idx}`}
-                      href="https://helixconferences.com/hybrid-events.php"
-                      className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer text-left"
+                      href="https://helixconferences.com/buy-a-ticket"
+                      className="block text-black text-base py-2 px-4 bg-white shadow rounded my-1 mx-2 hover:bg-gray-50 transition cursor-pointer text-center"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

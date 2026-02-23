@@ -32,7 +32,7 @@ const AboutUs = () => {
           <span className="text-one">Advancing Global Leadership  </span>{" "}
           in  Zero-Trust Security & AI Defence Forum,
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
           Welcome to the premier global platform for the  <Link to="https://helixconferences.com/buy-a-ticket" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"> Zero-Trust Security & AI Defence Forum, </Link>  where leading experts and decision-makers converge to advance cybersecurity, zero-trust architectures, AI-powered threat detection, and next-generation defense strategies. The forum unites cybersecurity professionals, AI researchers, IT leaders, and policymakers to address critical challenges and shape the future of secure, resilient, and intelligent digital systems across industries.
