@@ -26,7 +26,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/FOODMICROBIOME_brochure.pdf'
+    link: '/ZeroTrustAi.pdf'
   },
   {
     id: 'event-schedule',

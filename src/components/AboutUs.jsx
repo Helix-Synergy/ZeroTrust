@@ -40,7 +40,7 @@ const AboutUs = () => {
           <Link
             className="text-accent font-bold"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           ></Link>{" "}
         </p>
         <p> “Empowering Cyber security and AI Defence Through Zero-Trust Innovation”</p>
