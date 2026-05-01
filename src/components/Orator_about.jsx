@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import { orators } from '../../assets/orators';
-import OraterCard from '../ui/OraterCard';
+import { orators } from '../utils/Orators/orators';
+import OraterCard from './ui/OraterCard';
 
 const Orators = () => {
   return (
@@ -12,15 +12,16 @@ const Orators = () => {
      
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl mt-6">
-        {orators.map((item, idx) => (
-          <OraterCard
-            key={idx}
-            name={item.name}
-            about={item.about}
-            from={item.from}
-            image={item.image}
-            link={item.link}
-          />
+        {orators.slice(0, 4).map((item, idx) => (
+          <Link to={item.link} key={idx}>
+            <OraterCard
+              name={item.name}
+              about={item.about}
+              from={item.from}
+              image={item.image}
+              link={item.link}
+            />
+          </Link>
         ))}
       </div>
 

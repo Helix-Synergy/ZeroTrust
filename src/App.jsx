@@ -55,7 +55,7 @@ function App() {
         {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/event_partners" element={<SponsorshipPackages />} />
-        {/* <Route path="/techmatics-orators/:id" element={<OratorDetails />} /> */}
+        <Route path="/zerotrustai-orators/:id" element={<OratorDetails />} />
         {/* <Route path="/executive-panel-members/:id" element={<EpmTemplate />} /> */}
       </Routes>
       <Footer />

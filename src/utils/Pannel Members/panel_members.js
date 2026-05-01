@@ -17,14 +17,14 @@ export const panel_members_about = [
   {
     id: "Koji Nomura ",
     image: Joe,
-    name: "Joe Carroll" ,
+    name: "Joe Carroll",
     from: "United States",
     about: "University of Houston ",
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Praveen,
+    image: Praveen,
     name: "Praveen Kolliakal",
     from: "United States",
     about: "Amrita University",
