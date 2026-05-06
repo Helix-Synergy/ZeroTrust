@@ -52,7 +52,7 @@
 //       });
 
 //       const res = await axios.post(
-//         "https://backend-code-6vqy.onrender.com/brochure-download",
+//         `${process.env.REACT_APP_BACKEND_URL}/brochure-download`,
 //         formData, // Sending FormData
 //         {
 //           // headers: { "Content-Type": "multipart/form-data" }, // <-- REMOVED/COMMENTED: axios automatically sets this for FormData

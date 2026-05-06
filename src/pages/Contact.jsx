@@ -51,7 +51,7 @@ const ContactForm = () => {
       }
 
       const response = await axios.post(
-        "https://backend-code-6vqy.onrender.com/contact",
+        `${process.env.REACT_APP_BACKEND_URL}/contact`,
         formData, // <-- CHANGED: Send FormData instead of raw form object
         {
           headers: { "Content-Type": "multipart/form-data" },

@@ -18,11 +18,12 @@ const tileOptions = {
   "Carto Dark": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
   "Stamen Watercolor": "https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
   "Stamen Toner": "https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+  "Stadia Alidade Smooth": "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
 };
 
 const VenueMap = () => {
-  const [tileURL, setTileURL] = useState(tileOptions["Carto Light"]);
-  const position = [39.4554, -0.3516]; // Example: Valencia
+  const [tileURL, setTileURL] = useState(tileOptions["Stadia Alidade Smooth"]);
+  const position = [34.6937, 135.5023]; // Example: Osaka, Japan
   const greenIcon = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png',
     shadowUrl: iconShadow,
@@ -47,7 +48,7 @@ const VenueMap = () => {
 
       <div className="rounded-xl overflow-hidden shadow-lg h-[50vh] w-[500px]">
         <MapContainer center={position} zoom={15} scrollWheelZoom={true} className="h-full w-full">
-          <TileLayer url={tileURL} attribution="&copy; CartoDB contributors" />
+          <TileLayer url={tileURL} attribution="&copy; Stadia Maps, &copy; OpenMapTiles &copy; OpenStreetMap contributors" />
           <Marker position={position} icon={greenIcon}>
             <Popup>   ZEROTRUSTAI 2026 Venue</Popup>
           </Marker>
