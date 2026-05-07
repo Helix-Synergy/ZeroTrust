@@ -31,14 +31,14 @@ const Orators = () => {
         </p>
       </div>
 
-      {/* Orator Cards Grid */}
-      <div className="grid grid-cols-1 px-4 md:px-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-4 mb-12 w-full min-w-6xl">
+      {/* Orator Cards flex box container */}
+      <div className="flex flex-wrap justify-center px-4 md:px-12 gap-6 mt-4 mb-12 w-full">
         {orators?.length > 0 ? (
           orators.map((item, idx) => (
             <Link
               to={item.link}
               key={idx}
-              className="hover:scale-90 transition-transform"
+              className="hover:scale-90 transition-transform w-full sm:w-[45%] md:w-[30%] lg:w-[22%]"
             >
               <OraterCard
                 name={item.name}

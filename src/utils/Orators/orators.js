@@ -4,6 +4,7 @@ import Image2 from "../../assets/Orator Banners/Image2.png"
 import Image3 from "../../assets/Orator Banners/Image3.png"
 import Image4 from "../../assets/Orator Banners/Image4.png"
 import kenyaBanner from "../../assets/Orator Banners/image copy.png"
+import ShahbazImage from "../../assets/Orator Banners/Dr. Shahbaz Pervez Chattha 1.jpeg"
 export const orators = [
   {
     id: "judy-ngure",
@@ -18,7 +19,7 @@ export const orators = [
     image: Image2,
     name: "ISAAC NKAADA​",
     from: " United States",
-    about: "CyberSecurity Professional",
+    about: "University of Maryland",
     link: "/zerotrustai-orators/isaac-nkaada",
   },
   {
@@ -36,6 +37,14 @@ export const orators = [
     from: "Saudi Arabia",
     about: "Depaul University (Master's in Cybersecurity)",
     link: "/zerotrustai-orators/mohammad-alhudaithi",
+  },
+  {
+    id: "shahbaz-pervez-chattha",
+    image: ShahbazImage,
+    name: "Dr. Shahbaz Pervez Chattha",
+    from: "New Zealand",
+    about: "Whitecliffe New Zealand",
+    link: "/zerotrustai-orators/shahbaz-pervez-chattha"
   },
 
   // Second row
@@ -98,6 +107,15 @@ export const mohammad_alhudaithi_data = {
   about: "Mohammad Alhudaithi is a results-driven and detail-oriented Information Security professional with over eight years of extensive experience across information technology and cybersecurity domains. With a strong foundation in both operational and strategic security functions, he has consistently delivered impactful solutions that align cybersecurity initiatives with broader business objectives. His expertise spans cybersecurity strategy, risk analysis and mitigation, threat intelligence, security architecture, and cloud security, making him a well-rounded leader in the field.Currently serving as a Manager in Cybersecurity and Digital Trust at PwC in Riyadh, Saudi Arabia, Mohammad plays a key role in leading cybersecurity strategy, governance, and transformation initiatives."
 };
 
+export const shahbaz_pervez_chattha_data = {
+  id: "shahbaz-pervez-chattha",
+  image: ShahbazImage,
+  from: "New Zealand",
+  name: "Dr. Shahbaz Pervez Chattha",
+  banner: "https://img.freepik.com/free-vector/illustration-new-zealand-flag_53876-27119.jpg",
+  about: "Professor Dr. Shahbaz Pervez Chattha is a globally recognized AI & Cybersecurity leader whose 25-year career exemplifies excellence at the intersection of academia and industry. As Programme Chair and Distinguished Faculty Member at Whitecliffe New Zealand, he has pioneered innovative approaches to AI & cybersecurity education while maintaining active engagement with industry challenges. Professor Chattha stands at the nexus of advanced cybersecurity practice, academic leadership, and global community advocacy. His career is dedicated to a singular vision: fortifying the global digital landscape through robust security frameworks, the ethical adoption of AI, and the relentless empowerment of people. Professor Chattha’s expertise is validated by an exceptional portfolio of 20+ elite certifications from leading organizations including ISO 27001 & ISO 42001 Lead Auditor, Cisco (CCIE Security), ISACA (CISM), EC-Council (CEH), Sun Micro Systems (SCJP), Microsoft Inc (MCP), and CompTIA (Security+). His rare distinction as both a Cisco Certified Master Trainer and one of New Zealand’s select EC-Council certified instructors underscores his commitment to developing cybersecurity talent. These professional achievements are complemented by his standing as a Senior Member IEEE, a registered engineer with the Pakistan Engineering Council, member of the Institute of Engineering and Technology (UK), Chartered Member and Board Member of wellington Branch of ITP New Zealand."
+};
+
 
 
 // Map for lookup
@@ -106,6 +124,7 @@ export const orators_details_map = {
   "isaac-nkaada": isaac_nkaada_data,
   "jabulani-phillip": jabulani_phillip_data,
   "mohammad-alhudaithi": mohammad_alhudaithi_data,
+  "shahbaz-pervez-chattha": shahbaz_pervez_chattha_data,
 
 };
 
