@@ -8,13 +8,13 @@ const links = [
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+13052398055'
+    path: 'tel:+17036516096'
   },
   {
     id: 'whatsapp',
     icon: WhatsAppIcon,
     label: 'WhatsApp',
-    link: 'https://api.whatsapp.com/send/?phone=13052398055&text=Hello&type=phone_number&app_absent=0'
+    link: 'https://api.whatsapp.com/send/?phone=17036516096&text=Hello&type=phone_number&app_absent=0'
   },
   {
     id: 'abstract-submission',

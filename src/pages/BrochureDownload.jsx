@@ -64,8 +64,8 @@
 //         setStatus({ type: "success", message: res.data.message || "Form submitted successfully. Brochure will now download." }); // <-- CHANGED: Replaced alert with status
 //         // Trigger brochure download
 //         const link = document.createElement("a");
-//         link.href = "/public_health_brochure.pdf"; // Make sure this path is correct
-//         link.setAttribute("download", "public_health_brochure.pdf");
+//         link.href = "/ZeroTrustAi.pdf"; // Make sure this path is correct
+//         link.setAttribute("download", "ZeroTrustAi.pdf");
 //         document.body.appendChild(link);
 //         link.click();
 //         document.body.removeChild(link);

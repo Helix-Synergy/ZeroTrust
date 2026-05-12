@@ -87,7 +87,7 @@ const Footer = () => {
 
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start text-sm sm:text-base">
             <WhatsAppIcon className="h-5 w-5 fill-orange" />
-            <p>+1-305-239-8055</p>
+            <p>1-7036-516-096</p>
           </div>
 
           <div className="flex flex-row gap-2 items-center justify-center md:justify-start text-sm sm:text-base">
