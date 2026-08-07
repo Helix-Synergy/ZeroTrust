@@ -1,11 +1,11 @@
 import React from "react";
 import EventSchedule from "../components/EventSchedule";
 import { banner_style } from "../Styles/styles";
-import Sche from "../assets/Images1/Sche.png";
+import Sche from "../assets/Images1/Sche.webp";
 
 const Schedule = () => {
   return (
-    <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <section className="w-full  mx-auto justify-center items-center text-center">
       
       {/* Banner Section (CLONED) */}
       <div

@@ -26,7 +26,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/ZeroTrustAi.pdf'
+    link: '/brochure-download'
   },
   {
     id: 'event-schedule',
@@ -54,27 +54,6 @@ const QuickLinks = () => {
         const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
           isActive ? 'translate-x-0' : 'translate-x-40'
         } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
-
-        // ✅ Only brochure uses <a>
-        if (id === 'brochure-download') {
-          return (
-            <a
-              key={id}
-              href={href}
-              download
-              onMouseEnter={() => setHoveredId(id)}
-              onMouseLeave={() => setHoveredId(null)}
-              className={classes}
-            >
-              <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
-                <Icon className="h-5 w-5" />
-              </div>
-              <span className="ml-4 pr-4 text-sm font-medium text-one-800 whitespace-nowrap">
-                {label}
-              </span>
-            </a>
-          );
-        }
 
         // ✅ All others remain React routes
         return (

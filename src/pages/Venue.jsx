@@ -1,17 +1,17 @@
 import React, { Suspense } from "react";
-import { MapPin, PlaneIcon, Star } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { banner_style } from "../Styles/styles";
 import VenueMap from "../components/ui/VenueMap";
 import venue from "../assets/Images1/venue1.webp"
 const Venue = () => {
   return (
-    <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <section className="w-full  mx-auto justify-center items-center text-center">
 
       {/* Banner Section (CLONED FROM ORATORS) */}
       <div
         className={`${banner_style} w-full mx-auto venue-banner`}
         style={{
-          backgroundImage: `url(${venue})`,
+          backgroundImage: "url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -41,10 +41,10 @@ const Venue = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col lg:flex-row items-center my-6 gap-6 px-4 md:px-12">
-        <div className="lg:w-[40vw]">
+      <div className="flex flex-col lg:flex-row items-center my-6 gap-6 px-4 md:px-12 w-full justify-center">
+        <div className="lg:w-[40vw] max-w-2xl">
           <img
-            src="https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1396/restaurante-home-rooftop.jpg"
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
             alt="Venue"
             loading="lazy"
             className="w-full h-[30vh] md:h-[40vh] lg:h-[50vh] object-cover rounded-xl"

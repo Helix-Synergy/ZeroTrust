@@ -1,15 +1,16 @@
 // Techmatics Images
-import Image1 from "../../assets/Orator Banners/Image1.png"
-import Image2 from "../../assets/Orator Banners/Image2.png"
-import Image3 from "../../assets/Orator Banners/Image3.png"
-import Image4 from "../../assets/Orator Banners/Image4.png"
-import kenyaBanner from "../../assets/Orator Banners/image copy.png"
-import ShahbazImage from "../../assets/Orator Banners/Dr. Shahbaz Pervez Chattha 1.jpeg"
-import UmutImage from "../../assets/Orator Banners/Umut Ersoz.jpeg"
-import SandrineImage from "../../assets/Orator Banners/Sandrine Wihbedimbom.jpeg"
-import OrImage from "../../assets/Orator Banners/Or Brokkman.jpeg"
-import NoorulainImage from "../../assets/Orator Banners/Noorulain Zahra.jpeg"
-import JorgeImage from "../../assets/Orator Banners/Jorge Mario Ochoa..jpeg"
+import Image1 from "../../assets/Orator Banners/Image1.webp"
+import Image2 from "../../assets/Orator Banners/Image2.webp"
+import Image3 from "../../assets/Orator Banners/Image3.webp"
+import Image4 from "../../assets/Orator Banners/Image4.webp"
+import kenyaBanner from "../../assets/Orator Banners/image copy.webp"
+import ShahbazImage from "../../assets/Orator Banners/Dr. Shahbaz Pervez Chattha 1.webp"
+import UmutImage from "../../assets/Orator Banners/Umut Ersoz.webp"
+import SandrineImage from "../../assets/Orator Banners/Sandrine Wihbedimbom.webp"
+import OrImage from "../../assets/Orator Banners/Or Brokkman.webp"
+import NoorulainImage from "../../assets/Orator Banners/Noorulain Zahra.webp"
+import JorgeImage from "../../assets/Orator Banners/Jorge Mario Ochoa..webp"
+import RickImage from "../../assets/Orator Banners/Rick Logan Stanford 1.webp"
 export const orators = [
   {
     id: "judy-ngure",
@@ -26,14 +27,6 @@ export const orators = [
     from: " United States",
     about: "University of Maryland",
     link: "/zerotrustai-orators/isaac-nkaada",
-  },
-  {
-    id: "jabulani-phillip",
-    image: Image3,
-    name: "Jabulani Phillip Lechutinyane",
-    from: "Gauteng,South Africa",
-    about: "Cybersecurity from EC-Council University",
-    link: "/zerotrustai-orators/jabulani-phillip",
   },
   {
     id: "mohammad-alhudaithi",
@@ -134,15 +127,6 @@ export const isaac_nkaada_data = {
   about: "ISAAC NKAADA is saac has built his career at the intersection of cyber strategy, technical assessment, and mission execution. His work centers on evaluating Zero Trust maturity across identity, devices, networks, applications, and data while helping organizations align security capabilities with broader business and mission goals. He has supported security control assessments, compliance initiatives, and reauthorization efforts by reviewing safeguards, identifying gaps, and helping teams translate requirements into practical action. His experience includes work involving NIST 800-53, NIST 207, CMMC, PCI DSS,  control validation, policy improvement, and risk mitigation in complex enterprise settings. Isaac is known for combining technical depth with a structured, business-minded approach. He works effectively across security, engineering, operations, and leadership teams to improve control adoption, strengthen stakeholder understanding, and keep critical initiatives on track."
 };
 
-export const jabulani_phillip_data = {
-  id: "jabulani-phillip",
-  image: Image3,
-  from: "Gauteng, South Africa",
-  name: "Jabulani Phillip Lechutinyane",
-  banner: "https://img.freepik.com/premium-photo/south-africa-flag-with-waving-fabric-texture_7594-47.jpg?w=1000",
-  about: "I am Jabulani Phillip Lechutinyane, a dedicated and solutions-driven Cybersecurity Specialist andNetwork Security Engineer based in Gauteng, South Africa. Over the years, I have built a strong careerin cybersecurity, focusing on protecting organizations from evolving cyber threats, strengtheningsecurity infrastructures, and improving operational efficiency through technology. I am a CertifiedEthical Hacker (CEH) with hands-on experience across multiple domains of cybersecurity, includingSIEM implementation and administration, threat detection, incident response, and vulnerabilitymanagement. My journey in cybersecurity began with foundational roles as a Security Analyst (L1, L2,and L3), where I developed deep expertise in monitoring, investigating, and responding to securityincidents in high-pressure environments. Currently, I work as an OPS Specialist Network SecurityEngineer, where I deploy, maintain, and monitor secure network environments"
-};
-
 export const mohammad_alhudaithi_data = {
   id: "mohammad-alhudaithi",
   image: Image4,
@@ -212,7 +196,7 @@ export const jorge_mario_ochoa_data = {
 export const orators_details_map = {
   "judy-ngure": judy_ngure_data,
   "isaac-nkaada": isaac_nkaada_data,
-  "jabulani-phillip": jabulani_phillip_data,
+
   "mohammad-alhudaithi": mohammad_alhudaithi_data,
   "shahbaz-pervez-chattha": shahbaz_pervez_chattha_data,
   "umut-ersoz": umut_ersoz_data,

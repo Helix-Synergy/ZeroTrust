@@ -1,9 +1,9 @@
 
 // images
-import Parisa from "../../assets/Pannel Members/Parisa.png";
-import Joe from "../../assets/Pannel Members/Joe.png";
-import Praveen from "../../assets/Pannel Members/Praveen.png";
-import Alex from "../../assets/Pannel Members/Alex.png";
+import Parisa from "../../assets/Pannel Members/Parisa.webp";
+import Joe from "../../assets/Pannel Members/Joe.webp";
+import Praveen from "../../assets/Pannel Members/Praveen.webp";
+import Alex from "../../assets/Pannel Members/Alex.webp";
 
 export const panel_members_about = [
   {
@@ -131,7 +131,7 @@ export const panel_members = panel_members_about;
 //   about:
 //     " Dr. Velimir V Vesselinov is the CTO and co-founder of EnvTrace. He spent over 20 years as a scientist at Los Alamos National Laboratory and was a tenured professor at the University of Mining and Geology, Sofia, Bulgaria. He holds an M.Sc. in geological engineering and a Ph.D. in engineering hydrology. Dr. Vesselinov has led numerous multi-institutional research projects on geologic carbon storage, climate change, and more. He has developed novel methods and software in data analytics, statistical analyses, and machine learning, earning 2 R&D100 awards and a machine-learning patent. He has published over 100 papers with an h-index of 30.",
 //   banner:
-//     "https://t4.ftcdn.net/jpg/07/68/48/19/360_F_768481918_VmWYi1nQVP0grVGjBBUJ7qNomt0onwR0.jpg",
+//     "https://t4.ftcdn.net/jpg/07/68/48/19/360_F_768481918_VmWYi1nQVP0grVGjBBUJ7qNomt0onwR0.webp",
 //   link: "/executive-panel-members/velimir",
 // };
 
@@ -167,7 +167,7 @@ export const panel_members = panel_members_about;
 //   about:
 //     "Professor De Morais, PhD, was full Professor of Physics at the University of Brasilia (UnB) – Brazil up to 2013. UnB’s Emeritus Professor (2014); Visiting Professor at the Huazhong University of Science and Technology (HUST) – China (2012-2015); Distinguished Professor at the Anhui University (AHU) – China (2016-2019); Full Professor at the Catholic University of Brasília (CUB) – Brazil (since 2018); CNPq-1A Research Fellow since 2010; 2007 Master Research Prize from UnB. Held two-years (1987-1988) post-doc position with Bell Communications Research, New Jersey – USA. Doctoral degree in Solid State Physics (1986) from the Federal University of Minas Gerais (UFMG) – Brazil. With more than 12,500 citations, He has published more than 500 papers (Web of Science) and more than 16 patents.",
 //   banner:
-//     "https://wallpapers.com/images/hd/brazil-flag-in-silk-ipri8roaxci23qo3.jpg",
+//     "https://wallpapers.com/images/hd/brazil-flag-in-silk-ipri8roaxci23qo3.webp",
 //   link: "/executive-panel-members/Paulo",
 // };
 
@@ -191,7 +191,7 @@ export const panel_members = panel_members_about;
 //   about:
 //     "Rami Ahmad El-Nabulsi holds a PhD in Particle Physics, Mathematical Physics and Modeling from Provence University (currently Aix-Marseille University), France and a diploma of advanced studies in Plasma Physics and Radiation Astrophysics from the same institution. He worked with different worldwide research departments in UK, South Korea, China, Greece, Thailand, India, Europe, etc. He is the author of more than 385 peer-reviewed papers in peer-refereed reputed journals and a reviewer for more than 200 scientific journals. He has been selected as the World’s Top 2% Scientists 2021 and 2022 (by Stanford University). His research ranges from applied mathematics to theoretical physics.",
 //   banner:
-//     "https://wallpapers.com/images/hd/france-flag-waving-on-wind-zxbe7au3q3p1d2yy.jpg",
+//     "https://wallpapers.com/images/hd/france-flag-waving-on-wind-zxbe7au3q3p1d2yy.webp",
 //   link: "/executive-panel-members/rami-ahmad-el-nabulsi",
 // };
 

@@ -1,19 +1,19 @@
-// // import logo from "./logo.png";
-// // import bg from "./bg.jpg";
-// // import weblogo from "./weblogo.png";
+// // import logo from "./logo.webp";
+// // import bg from "./bg.webp";
+// // import weblogo from "./weblogo.webp";
 // // import whatsapp from "./logo-whatsapp.svg";
 
 // // import { HeartPulse, Phone } from "lucide-react";
 
-// // // import one from "./partners/one.jpg";
-// // import two from "./partners/two.jpg";
-// // import three from "./partners/three.jpg";
-// // import four from "./partners/four.jpg";
-// // import five from "./partners/five.jpg";
-// // import six from "./partners/six.jpg";
-// // import seven from "./partners/seven.jpg";
-// // import eight from "./partners/one.jpg";
-// // import nine from "./partners/nine.jpg";
+// // // import one from "./partners/one.webp";
+// // import two from "./partners/two.webp";
+// // import three from "./partners/three.webp";
+// // import four from "./partners/four.webp";
+// // import five from "./partners/five.webp";
+// // import six from "./partners/six.webp";
+// // import seven from "./partners/seven.webp";
+// // import eight from "./partners/one.webp";
+// // import nine from "./partners/nine.webp";
 
 // // import {
 // //   Facebook,
@@ -31,16 +31,16 @@
 // // import { base, link } from "framer-motion/client";
 
 // // //badges-------------------------------------
-// // import silver from "./badges/2.png";
-// // import gold from "./badges/3.png";
-// // import platinum from "./badges/4.png";
+// // import silver from "./badges/2.webp";
+// // import gold from "./badges/3.webp";
+// // import platinum from "./badges/4.webp";
 
 // // //Homepage banners------------------------------------------
-// // import banner_one from "./banners/one.jpg";
-// // import banner_two from "./banners/two.jpg";
-// // import banner_three from "./banners/three.jpg";
-// // import banner_four from "./banners/four.png";
-// // import about_img from "./about_img.jpg";
+// // import banner_one from "./banners/one.webp";
+// // import banner_two from "./banners/two.webp";
+// // import banner_three from "./banners/three.webp";
+// // import banner_four from "./banners/four.webp";
+// // import about_img from "./about_img.webp";
 
 // // export const banner_images = {
 // //   banner_four,
@@ -116,7 +116,7 @@
 // //   {
 // //     id: 6,
 // //     name: "LinkedIn",
-// //     url: "https://www.linkedin.com/company/107152919/admin/dashboard/",
+// //     url: "https://www.linkedin.com/in/sri-r-b7791a224/",
 // //     icon: <Linkedin size={18} />,
 // //   },
 // //   {
@@ -202,7 +202,7 @@
 // // export const venueImages = [
 // //   {
 // //     id: 1,
-// //     src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.jpg", // City of Arts and Sciences at Sunset
+// //     src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.webp", // City of Arts and Sciences at Sunset
 // //     alt: "City of Arts and Sciences",
 // //   },
 // //   {
@@ -212,12 +212,12 @@
 // //   },
 // //   {
 // //     id: 3,
-// //     src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.jpg", // Oceanogràfic Aquarium
+// //     src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.webp", // Oceanogràfic Aquarium
 // //     alt: "Oceanogràfic",
 // //   },
 // //   {
 // //     id: 4,
-// //     src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.jpg", // El Carmen District
+// //     src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.webp", // El Carmen District
 // //     alt: "El Carmen District",
 // //   },
 // // ];
@@ -270,9 +270,9 @@
 
 
 // // Imports
-// import logo from "./logo.png";
-// import bg from "./bg.jpg";
-// import weblogo from "./weblogo.png";
+// import logo from "./logo.webp";
+// import bg from "./bg.webp";
+// import weblogo from "./weblogo.webp";
 // import whatsapp from "./logo-whatsapp.svg";
 
 // import { HeartPulse, Phone } from "lucide-react";
@@ -288,25 +288,25 @@
 // } from "lucide-react";
 
 // // Partner images
-// import two from "./partners/two.jpg";
-// import three from "./partners/three.jpg";
-// import five from "./partners/five.jpg";
-// import six from "./partners/six.jpg";
-// import seven from "./partners/seven.jpg";
-// import eight from "./partners/one.jpg";
-// import nine from "./partners/nine.jpg";
+// import two from "./partners/two.webp";
+// import three from "./partners/three.webp";
+// import five from "./partners/five.webp";
+// import six from "./partners/six.webp";
+// import seven from "./partners/seven.webp";
+// import eight from "./partners/one.webp";
+// import nine from "./partners/nine.webp";
 
 // // Badges
-// import silver from "./badges/2.png";
-// import gold from "./badges/3.png";
-// import platinum from "./badges/4.png";
+// import silver from "./badges/2.webp";
+// import gold from "./badges/3.webp";
+// import platinum from "./badges/4.webp";
 
 // // Homepage banners
-// import banner_one from "./banners/one.jpg";
-// import banner_two from "./banners/two.jpg";
-// import banner_three from "./banners/three.jpg";
-// import banner_four from "./banners/four.png";
-// import about_img from "./about_img.jpg";
+// import banner_one from "./banners/one.webp";
+// import banner_two from "./banners/two.webp";
+// import banner_three from "./banners/three.webp";
+// import banner_four from "./banners/four.webp";
+// import about_img from "./about_img.webp";
 
 // // Banner images
 // export const banner_images = {
@@ -361,7 +361,7 @@
 //   {
 //     id: 6,
 //     name: "LinkedIn",
-//     url: "https://www.linkedin.com/company/107152919/admin/dashboard/",
+//     url: "https://www.linkedin.com/in/sri-r-b7791a224/",
 //     icon: <Linkedin size={18} />,
 //   },
 //   {
@@ -421,7 +421,7 @@
 // export const venueImages = [
 //   {
 //     id: 1,
-//     src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.jpg",
+//     src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.webp",
 //     alt: "City of Arts and Sciences",
 //   },
 //   {
@@ -431,12 +431,12 @@
 //   },
 //   {
 //     id: 3,
-//     src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.jpg",
+//     src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.webp",
 //     alt: "Oceanogràfic",
 //   },
 //   {
 //     id: 4,
-//     src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.jpg",
+//     src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.webp",
 //     alt: "El Carmen District",
 //   },
 // ];

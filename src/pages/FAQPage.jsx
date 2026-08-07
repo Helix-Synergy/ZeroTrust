@@ -17,7 +17,7 @@ export const faqData = [
   {
     question: "When and where will ZEROTRUSTAI-2026 take place?",
     answer:
-      "ZEROTRUSTAI-2026 will be held on September 24–25, 2026, in Osaka, Japan.",
+      "ZEROTRUSTAI-2026 will be held on October 22–23, 2026, in Osaka, Japan.",
   },
   {
     question: "What are the key highlights of ZEROTRUSTAI-2026?",

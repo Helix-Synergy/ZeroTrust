@@ -17,7 +17,7 @@ import {
   Rocket,
 } from "lucide-react";
 import { banner_style } from "../Styles/styles";
-import about1 from "../assets/Images1/about1.png"
+import about1 from "../assets/Images1/about1.webp"
 const data = {
   event: {
     title: "About Us",
@@ -115,7 +115,7 @@ const data = {
 
 const AboutPublicHealth = () => {
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       <div
         className={`${banner_style} w-full mx-auto about-banner`}
         style={{
@@ -136,7 +136,7 @@ const AboutPublicHealth = () => {
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
-          24<sup></sup> - 25<sup></sup> Sep 2026
+          22<sup>nd</sup> - 23<sup>rd</sup> Oct 2026
         </strong>
       </p>
 

@@ -93,8 +93,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Hide scrollbars */

@@ -1,7 +1,7 @@
-import breakfast from '../../assets/schedule icons/breakfast.png';
-import refreshment from '../../assets/schedule icons/refreshment.png';
-import registration from '../../assets/schedule icons/registration.png';
-import profile_img from '../../assets/schedule icons/profile_img.png';
+import breakfast from '../../assets/schedule icons/breakfast.webp';
+import refreshment from '../../assets/schedule icons/refreshment.webp';
+import registration from '../../assets/schedule icons/registration.webp';
+import profile_img from '../../assets/schedule icons/profile_img.webp';
 
 
 

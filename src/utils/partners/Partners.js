@@ -1,13 +1,13 @@
-import one from "../../assets/partners/one.jpg";
-import two from "../../assets/partners/two.jpg";
-import three from "../../assets/partners/three.jpg";
-import four from "../../assets/partners/four.jpg";
-import five from "../../assets/partners/five.jpg";
-import six from "../../assets/partners/six.jpg";
-import seven from "../../assets/partners/seven.jpg";
-import eight from "../../assets/partners/eight.jpg";
-import nine from "../../assets/partners/nine.jpg";
-import ten from "../../assets/partners/ten.jpg";
+import one from "../../assets/partners/one.webp";
+import two from "../../assets/partners/two.webp";
+import three from "../../assets/partners/three.webp";
+import four from "../../assets/partners/four.webp";
+import five from "../../assets/partners/five.webp";
+import six from "../../assets/partners/six.webp";
+import seven from "../../assets/partners/seven.webp";
+import eight from "../../assets/partners/eight.webp";
+import nine from "../../assets/partners/nine.webp";
+import ten from "../../assets/partners/ten.webp";
 
 export const PartnerImageList = [
   { id: 1, name: one },

@@ -3,10 +3,10 @@ import { orators } from "../utils/Orators/orators";
 import OraterCard from "../components/ui/OraterCard";
 import { Link } from "react-router-dom";
 import { banner_style } from "../Styles/styles";
-import orators1 from "../assets/Images1/orators.png"
+import orators1 from "../assets/Images1/orators.webp"
 const Orators = () => {
   return (
-    <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <section className="w-full  mx-auto justify-center items-center text-center">
       {/* Banner Section */}
       <div
         className={`${banner_style} w-full mx-auto orators-banner`}

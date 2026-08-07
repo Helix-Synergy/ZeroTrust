@@ -15,12 +15,12 @@ const Home = () => {
           
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
-          Sep
+          Oct
             </h1>
 
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold text-one">
-                24-25 | 2026
+                22-23 | 2026
               </p>
               <p className="text-base md:text-lg font-bold text-one">
                 Osaka | Japan 

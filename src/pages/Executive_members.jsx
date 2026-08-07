@@ -7,7 +7,7 @@ import { banner_style } from "../Styles/styles";
 import page from "../assets/Images1/EXECTIVEPANNELMEMBERS.webp"
 const Executive_members = () => {
   return (
-    <section className="cw-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <section className="cw-full  mx-auto justify-center items-center text-center">
       {/* Banner Section */}
     <div
   className={`${banner_style} mx-auto text-one executive-panel-banner w-full`}

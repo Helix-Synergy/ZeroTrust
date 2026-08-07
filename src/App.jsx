@@ -22,8 +22,26 @@ import AbstractSubmission from "./pages/AbstractSubmission";
 import BrochureDownload from "./pages/BrochureDownload";
 import FAQPage from "./pages/FAQPage";
 import ExecutiveMembers from "./pages/Executive_members";
-import banner from "./assets/banner.jpg"
+import banner from "./assets/banner.webp"
+import ChatbotWidget from "./components/Chatbot/ChatbotWidget";
 function App() {
+
+  useEffect(() => {
+    const recordVisit = async () => {
+      try {
+        const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://backend-code-6vqy.onrender.com";
+        await fetch(`${API_BASE_URL}/api/record-visit`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'omit' // use omit to avoid CORS issues if origin is not explicitly allowed, since we rely on unique_visits count anyway, or use include if needed.
+        });
+      } catch (err) {
+        console.warn("Could not record visit:", err.message);
+      }
+    };
+    recordVisit();
+  }, []);
+
   const [showMiniNavbar, setShowMiniNavbar] = useState(true);
 
   useEffect(() => {
@@ -52,12 +70,13 @@ function App() {
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/zerotrustai-conference-tracks/"element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
-        {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
+        <Route path="/brochure-download" element={<BrochureDownload />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/event_partners" element={<SponsorshipPackages />} />
         <Route path="/zerotrustai-orators/:id" element={<OratorDetails />} />
         {/* <Route path="/executive-panel-members/:id" element={<EpmTemplate />} /> */}
       </Routes>
+      <ChatbotWidget />
       <Footer />
     </Router>
        <div
